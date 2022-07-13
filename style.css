@@ -1,0 +1,97 @@
+/*
+  ROOT
+*/
+
+:root {
+  --bg-pag: #01afff;
+  --bg-receita: #ffffff;
+  --title: #1b1b1b;
+  --legend: #8f8f8f;
+  --others-text: #39393a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+  BODY AND MAIN
+*/
+
+body {
+  background-color: var(--bg-pag);
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  padding: 1.25rem;
+  background-color: var(--bg-receita);
+  margin: 1.25rem 20%;
+  border-radius: 0.3125rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0rem 0.3125rem 0.9375rem;
+}
+
+/*
+  IMAGE
+*/
+
+img {
+  height: 12.5rem;
+  width: 97%;
+  object-fit: cover;
+  border-radius: 0.625rem;
+}
+
+/*
+  TITLE
+*/
+
+h1,
+h2,
+h3 {
+  font-size: 1.25rem;
+  margin: 1.25rem 1.875rem 1.25rem 1.25rem;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1{
+  font-size: 1.75rem;
+}
+
+/*
+  TEXT
+*/
+
+figcaption {
+  text-align: end;
+  margin-right: 1.875rem;
+  font-size: 0.6875rem;
+  color: var(--others-text);
+  text-transform: lowercase;
+}
+
+p {
+  text-align: center;
+}
+
+footer > p {
+  font-size: 0.875rem;
+  margin-bottom: 0.625rem;
+}
+
+/*
+  list
+*/
+
+ul, ol {
+ margin-left: 1.25rem;
+ line-height: 3;
+}
+
+ul {
+  list-style: disc;
+}
